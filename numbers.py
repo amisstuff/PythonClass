@@ -9,10 +9,10 @@ print (int("10"))
 
 print (5+3)
 print (9-1)
-print (int(64/8))
+print (int(64/8)) #int() turns float into an int
 print (4*2)
 
-favorite = (str(8))
+favorite = (str(8)) #str() turns int into a string
 
 message = ("my fav number is" + " " + favorite)
 print (message)
